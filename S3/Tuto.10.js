@@ -1,0 +1,18 @@
+let panier = [15, 42, 5, 89, 12, 50, 8];
+
+let sommeTotale = 0;
+let nombreArticlesChers = 0;
+let montantArticlesChers = 0;
+
+for (let i = 0; i < panier.length; i++) {
+
+    sommeTotale = sommeTotale + panier[i];
+    if (panier[i] >= 20) {
+        nombreArticlesChers++;
+        montantArticlesChers = montantArticlesChers + panier[i];
+    }
+}
+
+console.log("Total du panier : " + sommeTotale);
+console.log("Nombre d'articles chers : " + nombreArticlesChers);
+console.log("Montant des articles chers : " + montantArticlesChers);
