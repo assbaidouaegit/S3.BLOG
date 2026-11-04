@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: #17243D;
+}
+
+header {
+    background-color: #17243D;
+    color: white;
+    padding: 20px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.accueil {
+    background-color: #F1F5FA;
+    padding: 65px 4%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.accueil-texte {
+    flex: 1;
+}
+
+.accueil h2 {
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+.accueil h3 {
+    font-size: 32px;
+    margin-top: 10px;
+}
+
+.accueil p {
+    font-size: 18px;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.accueil-image img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.bouton {
+    display: inline-block;
+    background-color: #17243D;
+    color: white;
+    padding: 14px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.section-projets {
+    padding: 35px 4%;
+}
+
+.section-projets h2 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.grille-projets {
+    display: flex;
+    gap: 25px;
+}
+
+.carte {
+    flex: 1;
+    border: 1px solid #DCE3EC;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.carte img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.contenu {
+    padding: 15px;
+}
+
+.contenu h3 {
+    margin-top: 0;
+}
+
+.contenu p {
+    color: #536176;
+}
+
+.apropos,
+.contact {
+    padding: 30px 4%;
+    text-align: center;
+    background-color: #F1F5FA;
+}
+
+footer {
+    background-color: #17243D;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+
